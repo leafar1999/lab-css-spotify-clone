@@ -1,3 +1,137 @@
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
+.nav-bar {
+  width: 350px;
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 72%;
+  padding: 0;
+  z-index: 99;
+}
+
+.spotify-logo {
+  align-items: flex-start;
+  margin: 0;
+  display: block;
+  width: 10%;
+  height: auto;
+  padding: 14px 20px;
+  background-color: white;
+}
+
+.hero-image {
+  background-image: url("../images/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-image p {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-weight: lighter;
+  display: block;
+  height: 250px;
+  padding-top: 50px;
+}
+
+.hero-image h1 {
+  text-align: center;
+  font-size: 65px;
+  color: #fff;
+  font-weight: lighter;
+  display: block;
+  height: 250px;
+  padding-top: 50px;
+}
+
+.line {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.line hr {
+  border-top: solid 3px #00b172;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 1  0px;
+  margin-left: auto;
+  width: 25%;
+}
+
+#list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+  flex-direction: column;
+  text-align: justify;
+  height: auto;
+  margin: 0 75px 0 75px;
+}
+
+.container h2{
+  color: #00b172;
+}
+
+.container img {
+  display: inline-block;
+  background-position: center top;
+  margin-right: 30px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  width: 142px;
+  height: 142px;
+  margin: 0px 25px 0px 0px;
+  }
+
+.app {
+  font-size: 1.7em;
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 15px;
+  background-color: #00b172;
+  color: white;
+}
+
+.app div {
+  margin: 0 75px 0 75px;
+}
+
+.icon-white{
+   display: inline-block;
+  background-position: center top;
+  margin-right: 30px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  width: 142px;
+  height: 142px;
+  margin: 0px 25px 0px 0px;
+     
+
+}
+
+.icon-app {
+  width: 20%;
+}
+
 /*
 Colors:
 
